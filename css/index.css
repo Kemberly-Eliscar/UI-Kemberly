@@ -646,7 +646,7 @@ img {
 .subscribe-container {
   width: 100%;
   height: 80px;
-  background-color: #789956;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -684,12 +684,12 @@ img {
   }
 }
 .subscribe-container form input {
-  background-color: #789956;
+  background-color: white;
   width: 250px;
   height: 28px;
-  border: 1.2px solid white;
+  border: 1.2px solid black;
   border-radius: 10px;
-  color: gray;
+  color: black;
   font-family: 'PT Serif', serif;
   padding-left: 5px;
 }
@@ -700,7 +700,7 @@ img {
   }
 }
 .subscribe-container form input::placeholder {
-  color: white;
+  color: black;
   font-family: 'PT Serif', serif;
   padding-left: 5px;
 }
@@ -711,7 +711,7 @@ img {
   border-radius: 7px;
   border: 1.2px solid lightgray;
   font-size: 1.4rem;
-  color: #789956;
+  color: black;
   margin: 0 10px;
 }
 .subscribe-container form button:hover {
